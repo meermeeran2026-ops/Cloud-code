@@ -1,0 +1,150 @@
+{
+ "title": "The Mountain Man",
+ "language": "hi",
+ "takes": [
+  {
+   "take": "T01_cold_open",
+   "lines": [
+    {
+     "id": 1,
+     "text": "एक आदमी। एक हथौड़ा। और सामने एक पूरा पहाड़।",
+     "spoken": "एक आदमी। एक हथौड़ा। और सामने एक पूरा पहाड़।",
+     "hero": "the rocky hill, dark, the camera pushing in",
+     "typed": ""
+    },
+    {
+     "id": 2,
+     "text": "लोग हँसते थे, कहते थे, पागल है।",
+     "spoken": "लोग हँसते थे, कहते थे, पागल है।",
+     "hero": "a lone figure against the rock; a red stamp lands on 'पागल'",
+     "typed": "MADMAN?"
+    },
+    {
+     "id": 3,
+     "text": "22 साल बाद, वही पहाड़ उसके आगे झुक गया।",
+     "spoken": "बाईस साल बाद, वही पहाड़ उसके आगे झुक गया।",
+     "hero": "the title, set big",
+     "typed": "THE MOUNTAIN MAN",
+     "gap_after": 0.7
+    }
+   ]
+  },
+  {
+   "take": "T02_why",
+   "lines": [
+    {
+     "id": 4,
+     "text": "बिहार के गया ज़िले का एक छोटा-सा गाँव, गहलौर।",
+     "spoken": "बिहार के गया ज़िले का एक छोटा सा गाँव, गहलौर।",
+     "hero": "map of Bihar; a pin drops on Gehlaur",
+     "typed": "GEHLAUR · GAYA, BIHAR"
+    },
+    {
+     "id": 5,
+     "text": "गाँव और अस्पताल के बीच था एक पथरीला पहाड़।",
+     "spoken": "गाँव और अस्पताल के बीच था एक पथरीला पहाड़।",
+     "hero": "the long road drawing on around the hill",
+     "typed": ""
+    },
+    {
+     "id": 6,
+     "text": "पत्नी फगुनिया पहाड़ पार करते घायल हुईं, इलाज समय पर न मिला।",
+     "spoken": "पत्नी फगुनिया पहाड़ पार करते घायल हुईं, इलाज समय पर न मिला।",
+     "hero": "card: her name",
+     "typed": "FALGUNI DEVI"
+    },
+    {
+     "id": 7,
+     "text": "उस दिन दशरथ मांझी ने ठान लिया: यह पहाड़ अब रास्ता बनेगा।",
+     "spoken": "उस दिन दशरथ मांझी ने ठान लिया: यह पहाड़ अब रास्ता बनेगा।",
+     "hero": "portrait of Dashrath Manjhi",
+     "typed": "DASHRATH MANJHI",
+     "gap_after": 0.7
+    }
+   ]
+  },
+  {
+   "take": "T03_work",
+   "lines": [
+    {
+     "id": 8,
+     "text": "1960. हाथ में बस एक हथौड़ा और एक छेनी।",
+     "spoken": "उन्नीस सौ साठ। हाथ में बस एक हथौड़ा और एक छेनी।",
+     "hero": "the year, set big; hammer and chisel card",
+     "typed": "1960"
+    },
+    {
+     "id": 9,
+     "text": "न मशीन, न मदद। अकेले, पत्थर पर चोट पर चोट।",
+     "spoken": "न मशीन, न मदद। अकेले, पत्थर पर चोट पर चोट।",
+     "hero": "the rock face; a crack draws on with each 'चोट'",
+     "typed": ""
+    },
+    {
+     "id": 10,
+     "text": "साल बीतते गए। पाँच, दस, बीस, बाईस।",
+     "spoken": "साल बीतते गए। पाँच, दस, बीस, बाईस।",
+     "hero": "a counter rolling up to 22",
+     "typed": "22 YEARS",
+     "gap_after": 0.7
+    }
+   ]
+  },
+  {
+   "take": "T04_result",
+   "lines": [
+    {
+     "id": 11,
+     "text": "1982 में, पहाड़ के बीचों-बीच से रास्ता निकल आया।",
+     "spoken": "उन्नीस सौ बयासी में, पहाड़ के बीचों बीच से रास्ता निकल आया।",
+     "hero": "the cut through the hill, light pouring through",
+     "typed": "1982"
+    },
+    {
+     "id": 12,
+     "text": "करीब 360 फ़ुट लंबा, और 30 फ़ुट चौड़ा।",
+     "spoken": "करीब तीन सौ साठ फ़ुट लंबा, और तीस फ़ुट चौड़ा।",
+     "hero": "big numbers over the path",
+     "typed": "360 FT × 30 FT"
+    },
+    {
+     "id": 13,
+     "text": "जो सफ़र 55 किलोमीटर का था, वह बस 15 का रह गया।",
+     "spoken": "जो सफ़र पचपन किलोमीटर का था, वह बस पंद्रह का रह गया।",
+     "hero": "map: the long route fades, the short one draws on",
+     "typed": "55 KM → 15 KM",
+     "gap_after": 0.7
+    }
+   ]
+  },
+  {
+   "take": "T05_close",
+   "lines": [
+    {
+     "id": 14,
+     "text": "जिसे लोग पागल कहते थे, आज दुनिया उसे माउंटेन मैन कहती है।",
+     "spoken": "जिसे लोग पागल कहते थे, आज दुनिया उसे माउंटेन मैन कहती है।",
+     "hero": "the 'MADMAN?' stamp from line 2, crossed out",
+     "typed": ""
+    },
+    {
+     "id": 15,
+     "text": "पहाड़ ऊँचा था, पर उसका इरादा उससे भी ऊँचा।",
+     "spoken": "पहाड़ ऊँचा था, पर उसका इरादा उससे भी ऊँचा।",
+     "hero": "pull back: the whole board",
+     "typed": "",
+     "gap_after": 1.5
+    }
+   ]
+  }
+ ],
+ "fact_notes": [
+  "Dashrath Manjhi, of Gehlaur village, Gaya district, Bihar; died 17 August 2007 (The Hindu / BBC obituaries, 2007).",
+  "Work commonly cited as 1960 to 1982, about 22 years, with hammer and chisel, alone.",
+  "Path commonly cited as about 360 ft long and 30 ft wide (some sources add about 25 ft deep).",
+  "Distance between Atri and Wazirganj blocks commonly cited as cut from about 55 km to about 15 km; some sources give other figures, so the line keeps it as the commonly cited pair.",
+  "Wife: Falguni (Phaguniya) Devi. Accounts agree she was hurt crossing the hill and could not get treatment in time; most say she died. The script says only 'injured, and no timely treatment'.",
+  "His resolve (line 7) is the widely told account of his motive, not a recorded quote; no words in quotation marks are attributed to him.",
+  "Typed labels are in English caps because the shipped display fonts have no Devanagari; switch to a Devanagari font (e.g. Noto Sans Devanagari) if Hindi on-screen text is wanted."
+ ]
+}
