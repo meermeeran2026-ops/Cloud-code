@@ -1,10 +1,13 @@
 {
  "maps": [{
-  "name": "world",
-  "source": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
-  "object": "countries",
-  "projection": {"type": "equirect", "lon0": 10, "lat0": 0},
-  "drop": ["Antarctica"],
-  "places": {"Addis Ababa": [9.03, 38.74], "Bogota": [4.71, -74.07], "Hanoi": [21.03, 105.85]}
+  "name": "bihar",
+  "source": "assets/data/india_states.geojson",
+  "projection": {"type": "equirect", "lon0": 85.5, "lat0": 25.5},
+  "keep": ["Bihar", "Jharkhand", "Uttar Pradesh", "West Bengal"],
+  "clip": [81.5, 22.3, 89.5, 28.2],
+  "neighbors": {"source": "assets/data/countries-50m.json", "object": "countries",
+                "keep": ["Nepal"], "dark": ["Nepal"], "clip": [81.5, 22.3, 89.5, 28.2]},
+  "frame": [81.8, 22.6, 89.2, 27.9],
+  "places": {"Gehlaur": [24.95, 85.30], "Gaya": [24.79, 85.00], "Patna": [25.59, 85.14]}
  }]
 }

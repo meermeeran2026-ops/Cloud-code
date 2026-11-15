@@ -1,5 +1,71 @@
 {
- "grade": "natural",
- "photos": [],
+ "grade": "sepia",
+ "photos": [
+  {
+   "id": "P01",
+   "what": "The Gehlaur hills, Gaya",
+   "kind": "photo",
+   "commons": "File:Dasrath Manjhi Hills.jpg",
+   "file": "P01_Dasrath_Manjhi_Hills.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Dasrath_Manjhi_Hills.jpg",
+   "credit": "Neilsatyam",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2023-01-28 14:41:27",
+   "license_ok": true
+  },
+  {
+   "id": "P03",
+   "what": "The path through the hill, Gehlaur, 2019",
+   "kind": "photo",
+   "commons": "File:Link between Ghivra Mauja in Gehlaur Ghati to Atara Prakhand Wazirganj made by Dashrath Manjhi IMG 20191127 145150.jpg",
+   "file": "P03_Link_between_Ghivra_Mauja_in_Gehlaur_Ghati_to_At.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Link_between_Ghivra_Mauja_in_Gehlaur_Ghati_to_Atara_Prakhand_Wazirganj_made_by_Dashrath_Manjhi_IMG_20191127_145150.jpg",
+   "credit": "Sumita Roy Dutta",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2019-11-27 14:51:50",
+   "license_ok": true
+  },
+  {
+   "id": "P04",
+   "what": "The path through the hill, 360 ft long, 2019",
+   "kind": "photo",
+   "commons": "File:Link between Ghivra Mauja in Gehlaur Ghati to Atara Prakhand Wazirganj made by Dashrath Manjhi in 22 yearsIMG 20191127 145226.jpg",
+   "file": "P04_Link_between_Ghivra_Mauja_in_Gehlaur_Ghati_to_At.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Link_between_Ghivra_Mauja_in_Gehlaur_Ghati_to_Atara_Prakhand_Wazirganj_made_by_Dashrath_Manjhi_in_22_yearsIMG_20191127_145226.jpg",
+   "credit": "Sumita Roy Dutta",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "Taken on 27 November 2019, 14:52:25",
+   "license_ok": true
+  },
+  {
+   "id": "P05",
+   "what": "Statue of Dashrath Manjhi at his memorial, Gehlaur",
+   "kind": "photo",
+   "commons": "File:Statue of Dashrath Manjhi 01.jpg",
+   "file": "P05_Statue_of_Dashrath_Manjhi_01.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Statue_of_Dashrath_Manjhi_01.jpg",
+   "credit": "Salil Kumar Mukherjee",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2023-11-07 17:49:37",
+   "license_ok": true
+  },
+  {
+   "id": "P06",
+   "what": "Entry gate towards Gehlaur Ghati",
+   "kind": "photo",
+   "commons": "File:Dashrath Manjhi entry gate towards Gehlaur Ghati IMG 20191127 145108.jpg",
+   "file": "P06_Dashrath_Manjhi_entry_gate_towards_Gehlaur_Ghati.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Dashrath_Manjhi_entry_gate_towards_Gehlaur_Ghati_IMG_20191127_145108.jpg",
+   "credit": "Sumita Roy Dutta",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "date": "2019-11-27 14:51:08",
+   "license_ok": true
+  }
+ ],
  "recreations": []
 }

@@ -23,6 +23,7 @@ import json
 import math
 import pathlib
 import re
+import unicodedata
 
 import numpy as np
 import skia
@@ -128,6 +129,11 @@ class Spline:
 
 
 # ---------------------------------------------------------------- project context
+def _letters(text):
+    """The letters of a line in any script (Latin, Devanagari, ...): Unicode letters and vowel signs."""
+    return "".join(ch for ch in text.lower() if unicodedata.category(ch)[0] in "LM")
+
+
 class Doc:
     """A project folder: voiceover timing, photo sizes, maps. Passed to scene.build_film(doc)."""
 
@@ -156,7 +162,7 @@ class Doc:
         """When `word` is spoken in line i, by its letter share of the line (pauses spread evenly).
         Search the SPOKEN text: "1929" is spoken "nineteen twenty-nine", so ask for "nineteen"."""
         vo = self.seg[i]["vo"]
-        letters = re.sub(r"[^a-z]", "", vo.lower())
+        letters = _letters(vo)
         idx, start = -1, 0
         for _ in range(nth + 1):
             idx = vo.lower().find(word.lower(), start); start = idx + 1
@@ -164,7 +170,7 @@ class Doc:
                 break
         if idx < 0:
             raise ValueError(f"{word!r} (occurrence {nth}) is not in the spoken text of line {i}: {vo!r}")
-        before = len(re.sub(r"[^a-z]", "", vo[:idx].lower()))
+        before = len(_letters(vo[:idx]))
         return self.L(i) + (self.E(i) - self.L(i)) * before / max(1, len(letters)) + 0.04
 
     def on(self, pr, fx, fy):
