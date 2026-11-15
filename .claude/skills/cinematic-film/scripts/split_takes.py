@@ -23,8 +23,14 @@ import argparse
 import json
 import pathlib
 import re
+import unicodedata
 import subprocess
 import sys
+
+
+def count_letters(text):
+    """Letters in any script (Latin, Devanagari, ...): Unicode letters and combining vowel signs."""
+    return sum(1 for ch in text if unicodedata.category(ch)[0] in "LM")
 
 NOISE_DB = -40        # silence threshold
 MIN_SIL = 0.16        # shortest pause considered a candidate cut (s)
@@ -54,7 +60,7 @@ def silences(path):
 
 def weight(text):
     """Rough speaking-time weight: letters, plus allowances for commas and sentence breaks inside the line."""
-    return len(re.sub(r"[^A-Za-z]", "", text)) + 6 * text.count(",") + 14 * len(re.findall(r"[.!?](?=\s+\S)", text.strip()))
+    return count_letters(text) + 6 * text.count(",") + 14 * len(re.findall(r"[.!?।](?=\s+\S)", text.strip()))
 
 
 def choose_cuts(cands, w, start, end, p0=0.55):
@@ -144,7 +150,7 @@ def main():
                  "-ar", "48000", "-ac", "1", str(odir / f"seg{line['id']:02d}.wav")])
             pause = sum(min(e, t1) - max(s, t0) for s, e in sil if e > t0 and s < t1)
             speech = max(0.01, (t1 - t0) - pause)
-            letters = len(re.sub(r"[^A-Za-z]", "", line["spoken"]))
+            letters = count_letters(line["spoken"])
             report.append({"id": line["id"], "take": take["take"], "start": round(t0, 3), "end": round(t1, 3),
                            "speech_s": round(speech, 2), "letters": letters, "lps": round(letters / speech, 2), "text": line["text"]})
             last = i == len(lines) - 1
