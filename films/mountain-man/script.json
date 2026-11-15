@@ -10,14 +10,16 @@
      "text": "एक आदमी। एक हथौड़ा। और सामने एक पूरा पहाड़।",
      "spoken": "एक आदमी। एक हथौड़ा। और सामने एक पूरा पहाड़।",
      "hero": "the rocky hill, dark, the camera pushing in",
-     "typed": ""
+     "typed": "",
+     "gap_after": 0.35
     },
     {
      "id": 2,
      "text": "लोग हँसते थे, कहते थे, पागल है।",
      "spoken": "लोग हँसते थे, कहते थे, पागल है।",
      "hero": "a lone figure against the rock; a red stamp lands on 'पागल'",
-     "typed": "MADMAN?"
+     "typed": "MADMAN?",
+     "gap_after": 0.35
     },
     {
      "id": 3,
@@ -25,7 +27,7 @@
      "spoken": "बाईस साल बाद, वही पहाड़ उसके आगे झुक गया।",
      "hero": "the title, set big",
      "typed": "THE MOUNTAIN MAN",
-     "gap_after": 0.7
+     "gap_after": 0.8
     }
    ]
   },
@@ -37,21 +39,24 @@
      "text": "बिहार के गया ज़िले का एक छोटा-सा गाँव, गहलौर।",
      "spoken": "बिहार के गया ज़िले का एक छोटा सा गाँव, गहलौर।",
      "hero": "map of Bihar; a pin drops on Gehlaur",
-     "typed": "GEHLAUR · GAYA, BIHAR"
+     "typed": "GEHLAUR · GAYA, BIHAR",
+     "gap_after": 0.35
     },
     {
      "id": 5,
      "text": "गाँव और अस्पताल के बीच था एक पथरीला पहाड़।",
      "spoken": "गाँव और अस्पताल के बीच था एक पथरीला पहाड़।",
      "hero": "the long road drawing on around the hill",
-     "typed": ""
+     "typed": "",
+     "gap_after": 0.35
     },
     {
      "id": 6,
      "text": "पत्नी फगुनिया पहाड़ पार करते घायल हुईं, इलाज समय पर न मिला।",
      "spoken": "पत्नी फगुनिया पहाड़ पार करते घायल हुईं, इलाज समय पर न मिला।",
      "hero": "card: her name",
-     "typed": "FALGUNI DEVI"
+     "typed": "FALGUNI DEVI",
+     "gap_after": 0.35
     },
     {
      "id": 7,
@@ -59,7 +64,7 @@
      "spoken": "उस दिन दशरथ मांझी ने ठान लिया: यह पहाड़ अब रास्ता बनेगा।",
      "hero": "portrait of Dashrath Manjhi",
      "typed": "DASHRATH MANJHI",
-     "gap_after": 0.7
+     "gap_after": 0.55
     }
    ]
   },
@@ -71,14 +76,16 @@
      "text": "1960. हाथ में बस एक हथौड़ा और एक छेनी।",
      "spoken": "उन्नीस सौ साठ। हाथ में बस एक हथौड़ा और एक छेनी।",
      "hero": "the year, set big; hammer and chisel card",
-     "typed": "1960"
+     "typed": "1960",
+     "gap_after": 0.35
     },
     {
      "id": 9,
      "text": "न मशीन, न मदद। अकेले, पत्थर पर चोट पर चोट।",
      "spoken": "न मशीन, न मदद। अकेले, पत्थर पर चोट पर चोट।",
      "hero": "the rock face; a crack draws on with each 'चोट'",
-     "typed": ""
+     "typed": "",
+     "gap_after": 0.35
     },
     {
      "id": 10,
@@ -86,7 +93,7 @@
      "spoken": "साल बीतते गए। पाँच, दस, बीस, बाईस।",
      "hero": "a counter rolling up to 22",
      "typed": "22 YEARS",
-     "gap_after": 0.7
+     "gap_after": 0.55
     }
    ]
   },
@@ -98,14 +105,16 @@
      "text": "1982 में, पहाड़ के बीचों-बीच से रास्ता निकल आया।",
      "spoken": "उन्नीस सौ बयासी में, पहाड़ के बीचों बीच से रास्ता निकल आया।",
      "hero": "the cut through the hill, light pouring through",
-     "typed": "1982"
+     "typed": "1982",
+     "gap_after": 0.35
     },
     {
      "id": 12,
      "text": "करीब 360 फ़ुट लंबा, और 30 फ़ुट चौड़ा।",
      "spoken": "करीब तीन सौ साठ फ़ुट लंबा, और तीस फ़ुट चौड़ा।",
      "hero": "big numbers over the path",
-     "typed": "360 FT × 30 FT"
+     "typed": "360 FT × 30 FT",
+     "gap_after": 0.35
     },
     {
      "id": 13,
@@ -113,7 +122,7 @@
      "spoken": "जो सफ़र पचपन किलोमीटर का था, वह बस पंद्रह का रह गया।",
      "hero": "map: the long route fades, the short one draws on",
      "typed": "55 KM → 15 KM",
-     "gap_after": 0.7
+     "gap_after": 0.55
     }
    ]
   },
@@ -125,7 +134,8 @@
      "text": "जिसे लोग पागल कहते थे, आज दुनिया उसे माउंटेन मैन कहती है।",
      "spoken": "जिसे लोग पागल कहते थे, आज दुनिया उसे माउंटेन मैन कहती है।",
      "hero": "the 'MADMAN?' stamp from line 2, crossed out",
-     "typed": ""
+     "typed": "",
+     "gap_after": 0.35
     },
     {
      "id": 15,
@@ -133,7 +143,7 @@
      "spoken": "पहाड़ ऊँचा था, पर उसका इरादा उससे भी ऊँचा।",
      "hero": "pull back: the whole board",
      "typed": "",
-     "gap_after": 1.5
+     "gap_after": 1.2
     }
    ]
   }
