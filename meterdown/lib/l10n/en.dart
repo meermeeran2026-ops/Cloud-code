@@ -122,4 +122,6 @@ const en = <String, String>{
   'nav_left': 'Turn left in 250 m',
   'nav_straight': 'Go straight for 600 m',
   'version': 'Version 0.1',
+  'swipe_pay': 'Swipe to pay ₹{n}',
+  'paid': 'Payment done',
 };

@@ -10,8 +10,19 @@ import 'package:meterdown/theme.dart';
 void main() {
   final q = Uri.base.queryParameters;
   lang.value = q['l'] ?? 'en';
-  const trip = Trip(Place('City Mall', 'Main Road', 2.8), Vehicle('auto', false, 3, 30, 12, 4));
-  final dark = {'dhome', 'request', 'dpickup', 'dotp', 'dtrip', 'ddone', 'dearn'};
+  const trip = Trip(
+    Place('City Mall', 'Main Road', 2.8),
+    Vehicle('auto', false, 3, 30, 12, 4),
+  );
+  final dark = {
+    'dhome',
+    'request',
+    'dpickup',
+    'dotp',
+    'dtrip',
+    'ddone',
+    'dearn',
+  };
   final s = q['s'] ?? 'splash';
   final Widget w = switch (s) {
     'lang' => const LanguageScreen(),
@@ -26,21 +37,24 @@ void main() {
     'trip' => const OnTripScreen(trip),
     'done' => const RideDoneScreen(trip),
     'dhome' => const DriverShell(),
-    'request' => const RequestScreen(),
+    'doffer' => const DriverShell(startOnline: true),
     'dpickup' => const PickupScreen(),
     'dotp' => const DriverOtpScreen(),
     'dtrip' => const DriverTripScreen(),
     'ddone' => const DriverDoneScreen(),
     _ => const SplashScreen(),
   };
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    theme: mdTheme(Brightness.light),
-    builder: (c, child) => Directionality(
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: mdTheme(Brightness.light),
+      builder: (c, child) => Directionality(
         textDirection: isRtl ? TextDirection.rtl : TextDirection.ltr,
-        child: child!),
-    home: dark.contains(s) && s != 'dhome'
-        ? Theme(data: mdTheme(Brightness.dark), child: w)
-        : w,
-  ));
+        child: child!,
+      ),
+      home: dark.contains(s) && s != 'dhome' && s != 'doffer'
+          ? Theme(data: mdTheme(Brightness.dark), child: w)
+          : w,
+    ),
+  );
 }

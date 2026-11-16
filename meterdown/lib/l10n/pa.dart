@@ -122,4 +122,6 @@ const pa = <String, String>{
   'nav_left': '250 ਮੀਟਰ ਬਾਅਦ ਖੱਬੇ ਮੁੜੋ',
   'nav_straight': '600 ਮੀਟਰ ਸਿੱਧੇ ਚੱਲੋ',
   'version': 'ਸੰਸਕਰਣ 0.1',
+  'swipe_pay': '₹{n} ਦੇਣ ਲਈ ਸਵਾਈਪ ਕਰੋ',
+  'paid': 'ਭੁਗਤਾਨ ਹੋ ਗਿਆ',
 };

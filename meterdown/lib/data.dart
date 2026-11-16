@@ -15,7 +15,14 @@ class Vehicle {
   final int base;
   final int perKm;
   final int eta;
-  const Vehicle(this.key, this.car, this.seats, this.base, this.perKm, this.eta);
+  const Vehicle(
+    this.key,
+    this.car,
+    this.seats,
+    this.base,
+    this.perKm,
+    this.eta,
+  );
   int fare(double km) => (base + km * perKm).round();
 }
 
@@ -55,14 +62,26 @@ class PastRide {
   final int fare;
   final bool upi;
   final bool car;
-  const PastRide(this.to, this.dayKey, this.when, this.fare,
-      {this.upi = false, this.car = false});
+  const PastRide(
+    this.to,
+    this.dayKey,
+    this.when,
+    this.fare, {
+    this.upi = false,
+    this.car = false,
+  });
 }
 
 const pastRides = [
   PastRide('City Mall', 'today', '9:40 AM', 64),
-  PastRide('District Hospital', 'yesterday', '6:15 PM', 116,
-      upi: true, car: true),
+  PastRide(
+    'District Hospital',
+    'yesterday',
+    '6:15 PM',
+    116,
+    upi: true,
+    car: true,
+  ),
   PastRide('Bus Stand', null, '12 Nov · 1:05 PM', 71),
   PastRide('Sabzi Mandi', null, '10 Nov · 8:20 AM', 53, upi: true),
 ];

@@ -122,4 +122,6 @@ const gu = <String, String>{
   'nav_left': '250 મીટર પછી ડાબે વળો',
   'nav_straight': '600 મીટર સીધા જાઓ',
   'version': 'આવૃત્તિ 0.1',
+  'swipe_pay': '₹{n} ચૂકવવા સ્વાઇપ કરો',
+  'paid': 'ચુકવણી થઈ ગઈ',
 };

@@ -34,10 +34,18 @@ extension Pal on BuildContext {
 }
 
 /// चुनी हुई भाषा की लिपि के फ़ॉन्ट में टेक्स्ट स्टाइल।
-TextStyle ts(double size,
-        [FontWeight w = FontWeight.w500, Color? c, double h = 1.3]) =>
-    GoogleFonts.getFont(fontOf(lang.value),
-        fontSize: size, fontWeight: w, color: c, height: h);
+TextStyle ts(
+  double size, [
+  FontWeight w = FontWeight.w500,
+  Color? c,
+  double h = 1.3,
+]) => GoogleFonts.getFont(
+  fontOf(lang.value),
+  fontSize: size,
+  fontWeight: w,
+  color: c,
+  height: h,
+);
 
 ThemeData mdTheme(Brightness b) {
   final dark = b == Brightness.dark;
@@ -53,10 +61,16 @@ ThemeData mdTheme(Brightness b) {
     ),
   );
   return base.copyWith(
-    textTheme:
-        GoogleFonts.getTextTheme(fontOf(lang.value), base.textTheme).apply(
-      bodyColor: dark ? C.dki : C.ink,
-      displayColor: dark ? C.dki : C.ink,
+    pageTransitionsTheme: const PageTransitionsTheme(
+      builders: {
+        TargetPlatform.android: FadeForwardsPageTransitionsBuilder(),
+        TargetPlatform.iOS: FadeForwardsPageTransitionsBuilder(),
+      },
     ),
+    textTheme: GoogleFonts.getTextTheme(fontOf(lang.value), base.textTheme)
+        .apply(
+          bodyColor: dark ? C.dki : C.ink,
+          displayColor: dark ? C.dki : C.ink,
+        ),
   );
 }
